@@ -17,6 +17,7 @@ body{
     background:#f5f7fa;
     color:#333;
     line-height:1.7;
+    min-height:100vh;
 }
 
 header{
@@ -69,9 +70,19 @@ a:hover{
 }
 
 footer{
-    text-align:center;
-    padding:30px;
-    color:#666;
+
+margin-top:60px;
+padding:30px;
+text-align:center;
+background:#111827;
+color:white;
+
+}
+
+footer p{
+
+margin:6px 0;
+
 }
 
 @media(max-width:768px){
@@ -159,7 +170,8 @@ transition:.3s;
 .btn:hover{
 
 background:#1d4ed8;
-transform:translateY(-2px);
+transform:translateY(-3px);
+box-shadow:0 8px 18px rgba(37,99,235,.3);
 
 }
 
